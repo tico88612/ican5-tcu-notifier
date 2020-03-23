@@ -1,0 +1,30 @@
+{
+  "name": "ican5-tcu-notifier",
+  "version": "0.1.0",
+  "description": "我會忘記 iCAN 有作業要完成，特此寫這個來提醒自己",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tico88612/ican5-tcu-notifier.git"
+  },
+  "keywords": [
+    "tcu",
+    "ican5"
+  ],
+  "author": "tico88612",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tico88612/ican5-tcu-notifier/issues"
+  },
+  "homepage": "https://github.com/tico88612/ican5-tcu-notifier#readme",
+  "devDependencies": {
+    "electron": "^8.1.1"
+  },
+  "dependencies": {
+    "electron-log": "^4.1.0",
+    "fomantic-ui": "^2.8.4"
+  }
+}
