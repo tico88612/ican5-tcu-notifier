@@ -4,6 +4,9 @@
   "description": "我會忘記 iCAN 有作業要完成，特此寫這個來提醒自己",
   "main": "app.js",
   "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "build": "electron-builder -mwl",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,10 +24,31 @@
   },
   "homepage": "https://github.com/tico88612/ican5-tcu-notifier#readme",
   "devDependencies": {
-    "electron": "^8.1.1"
+    "diff": "^4.0.2",
+    "electron": "^8.1.1",
+    "electron-builder": "^22.4.1",
+    "electron-packager": "^14.2.1",
+    "lodash.template": "^4.5.0"
   },
   "dependencies": {
     "electron-log": "^4.1.0",
-    "fomantic-ui": "^2.8.4"
+    "fomantic-ui": "^2.8.4",
+    "jquery": "^3.4.1"
+  },
+  "build": {
+    "appId": "tw.yangjerry.ican5-tcu-notifier",
+    "productName": "ican5-tcu-notifier",
+    "directories": {
+      "output": "dist"
+    },
+    "mac": {
+      "icon": "icon/apple.icns"
+    },
+    "win": {
+      "icon": "icon/win.png"
+    },
+    "linux": {
+      "icon": "icon/win.png"
+    }
   }
 }
