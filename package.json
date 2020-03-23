@@ -31,9 +31,11 @@
     "lodash.template": "^4.5.0"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "electron-log": "^4.1.0",
     "fomantic-ui": "^2.8.4",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "querystring": "^0.2.0"
   },
   "build": {
     "appId": "tw.yangjerry.ican5-tcu-notifier",
