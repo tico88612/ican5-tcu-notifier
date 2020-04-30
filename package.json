@@ -34,7 +34,7 @@
     "axios": "^0.19.2",
     "electron-log": "^4.1.0",
     "fomantic-ui": "^2.8.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "querystring": "^0.2.0"
   },
   "build": {
