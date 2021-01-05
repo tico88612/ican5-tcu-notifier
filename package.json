@@ -31,7 +31,7 @@
     "lodash.template": "^4.5.0"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "electron-log": "^4.1.0",
     "fomantic-ui": "^2.8.4",
     "jquery": "^3.4.1",
